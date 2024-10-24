@@ -325,7 +325,7 @@ img {
   /* z-index: var(--z-back); */
 }
 
-.skills__html {
+/* .skills__html {
   width: 95%;
 }
 .skills__css3 {
@@ -336,7 +336,7 @@ img {
 }
 .skills__git {
   width: 40%;
-}
+} */
 
 .skills__img {
   border-radius: 0.5rem;
@@ -368,6 +368,11 @@ img {
   transform: scale(1.1);
 }
 
+#project p {
+  text-decoration: none;
+  color: black;
+  margin-top: 30%;
+}
 /* ==============================contact baru================================= */
 .contact__input {
   width: 100%;
