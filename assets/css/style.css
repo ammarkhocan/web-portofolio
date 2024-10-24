@@ -99,18 +99,6 @@ img {
   text-align: center;
 }
 
-/* .section-title::after {
-  position: absolute;
-  content: "";
-  width: 64px;
-  height: 0.18rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 2rem;
-  background-color: var(--first-color);
-} */
-
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -198,7 +186,6 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #078080;
 }
 
 /* Show menu */
@@ -382,63 +369,23 @@ img {
 }
 
 /* ==============================contact baru================================= */
-.container {
+.contact__input {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contactForm {
-  width: 40%;
-  padding: 40px;
-  background: #f8f5f0;
-  margin-bottom: 10px;
-}
-
-.contactForm h2 {
-  font-size: 30px;
-  color: #333;
-  font-weight: 500;
-  text-align: center;
-}
-
-.contactForm .inputBox {
-  position: relative;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.contactForm .inputBox input,
-.contactForm .inputBox textarea {
-  width: 100%;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  border: none;
-  border-bottom: 2px solid #333;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--second-color);
   outline: none;
-  resize: none;
+  margin-bottom: var(--mb-4);
 }
-
-.contactForm .inputBox span {
-  position: absolute;
-  left: 0;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  pointer-events: none;
-  transition: 0.5s;
-  color: #666;
-}
-
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span {
-  color: black;
-  font-size: 12px;
-  transform: translateY(-20px);
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
 }
 
 .tbl-submit input[type="submit"] {
@@ -461,16 +408,16 @@ img {
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 25px;
 }
 
 .footer__social {
-  margin-bottom: var(--mb-4);
+  margin-bottom: 25px;
 }
 
 .footer__icon {
